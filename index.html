@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Dancing+Script" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body style="background-image:url(https://images.unsplash.com/photo-1504107435030-c7cd582601b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80);">
+    <div class="overlay">
+
+      <div class="top">
+          <div class="left">
+            <div>
+              Photo by: <a class="photoby" href="#" target="_blank"></a>
+            </div>
+            <div class="todo">
+              <div id="myDIV" class="header">
+                <h1>Todo</h1>
+                <div id="todoText"><input type="text" id="myInput" placeholder="Add to Todo List"></div>
+                <div id="todoBtn"><span onclick="newElement()" class="addBtn">+</span></div>
+              </div>
+              <ul id="myUL"></ul>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="date"></div>
+              <a class="weatherwidget-io" href="https://forecast7.com/en/43d47n79d69/oakville/" data-label_1="OAKVILLE" data-label_2="WEATHER" data-mode="Current" data-theme="pure" data-basecolor="rgba(255, 255, 255, 0.62)" data-accent="rgba(255, 255, 255, 0.02)" >OAKVILLE WEATHER</a>
+          </div>
+      </div>
+
+      <h1 class="time"></h1>
+      <h2 class="greeting"></h2>
+      <input class="user-name" type="text">
+      <input class="interest" type="text">
+      <div class="change-btn">
+        Choose a new focus
+      </div>
+      <div id="todayFocus">
+        <h4>TODAY's Focus</h4>
+        <span class="interest-text"></span>
+      </div>
+      <br>
+      <div class="quote"> “Be yourself; everyone else is already taken.” <br>  
+― Oscar Wilde</div>
+    </div>
+  </body>
+</html>
